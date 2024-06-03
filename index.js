@@ -463,7 +463,7 @@ else {
 }
 let question33 = await inquirer.prompt([{
         name: "Question_no_33",
-        message: "Q33) let sub1:number = 44; let sub2:number = -48; console.log(sub - sub2);the answer is that?",
+        message: "Q33) let sub1:number = 44; let sub2:number = -48; console.log(sub1 - sub2);the answer is that?",
         type: "list",
         choices: ["-4448", "92", "-92", "0"],
     }]);
